@@ -1,0 +1,43 @@
+/* Tema light implicită */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Buton stilizat */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Tema dark */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark-mode button {
+    background-color: #f0f0f0;
+    color: #121212;
+}
+
+body.dark-mode button:hover {
+    background-color: #ddd;
+}
